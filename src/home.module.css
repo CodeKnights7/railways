@@ -1,0 +1,85 @@
+
+.sub{
+    padding: 20px;
+    background-color: navy;
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+}
+.first{
+    image-rendering: crisp-edges;
+    display: flex;
+    padding: 10px;
+    background-color: azure;
+}
+.first > img{
+    height: 500px;
+    width: 1000px;
+    
+}
+.first p{
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.second{
+    margin: 10px;
+}
+.second > button{
+    background-color: blue;
+    border-radius: 10px;
+    height: 30px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.second > button:active{
+    background-color: transparent;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.third{
+    image-rendering: crisp-edges;
+    display: flex;
+    padding: 10px;
+    background-color: azure;
+}
+
+.third p{
+    padding: 20px;
+
+}
+
+.third > img{
+    margin: 5px;
+    height: 600px;
+    width: 1000px;
+    
+}
+.third p{
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.third button{
+    margin-left: 30px;
+    height: 30px;
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.third button:active{
+    color: blue;
+    border: blue;
+    background-color: transparent;
+}

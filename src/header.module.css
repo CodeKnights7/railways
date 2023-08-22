@@ -1,0 +1,100 @@
+.primary-color{
+    background-color: skyblue ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 10px; */
+}
+.primary-color > .top img{
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+}
+.primary-color ul{
+    
+    list-style: none;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: right;
+    padding-right: 10px;
+    padding-left: 750px; */
+    /* justify-items: right; */
+    /* justify-content: space-around; */
+    gap: 10px;
+    
+}
+.top{
+    align-items: center;
+    display: flex;
+}
+.top1{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 10px; */
+}
+.primary-color ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+.primary-color  > .top1 > button{
+    cursor: pointer;
+    margin-left: 1rem;
+    padding-left: 10px;
+    margin-right: 1rem;
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    height: 30px;
+    width: 80px;
+
+}
+.primary-color > .top1 > button:active{
+    color: rebeccapurple;
+    background: transparent;
+    border: 2px solid rebeccapurple ;
+}
+.sub{
+    padding: 20px;
+    background-color: navy;
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+}
+.first{
+    image-rendering: crisp-edges;
+    display: flex;
+    padding: 10px;
+    background-color: azure;
+}
+.first > img{
+    height: 500px;
+    width: 1000px;
+    
+}
+.first p{
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.second{
+    margin: 10px;
+}
+.second > button{
+    background-color: blue;
+    border-radius: 10px;
+    height: 30px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.second > button:active{
+    background-color: transparent;
+    color: blue;
+    border: 2px solid blue;
+}
